@@ -7,16 +7,16 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "preinstall": "npx only-allow pnpm",
     "gentypes": "supabase gen types typescript --project-id dyqqfziibuvldfpiyigz > types/database.ts"
   },
+  "module": "index.js",
   "dependencies": {
     "@heroicons/react": "^2.0.13",
     "@supabase/auth-helpers-nextjs": "^0.5.2",
     "@supabase/supabase-js": "^2.1.1",
     "dotenv": "^16.0.3",
     "encoding": "^0.1.13",
-    "next": "^13.0.4",
+    "next": "latest",
     "pnpm": "^7.17.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
